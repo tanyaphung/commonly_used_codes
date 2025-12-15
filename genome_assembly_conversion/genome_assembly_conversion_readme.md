@@ -6,12 +6,14 @@
 wget https://ftp.ncbi.nih.gov/snp/latest_release/VCF/GCF_000001405.40.gz
 ```
 
-2. Process for FUMA format
+2. Process to format to be used for tabix
+
 - Extract chr, pos, rsID, ref, alt
 
 ```
 python ./process_dbsnp157.py --chrom NC_000017.11 --new_chrom 17
 ```
+
     - One need to look up the NC value for the chromosome number
 
 - bgzip and tabix
