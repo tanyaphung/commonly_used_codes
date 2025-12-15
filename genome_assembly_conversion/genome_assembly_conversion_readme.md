@@ -2,7 +2,6 @@
 
 ### Pre-process rsID
 1. Download dbSNP157
-- Access date: 
 ```
 wget https://ftp.ncbi.nih.gov/snp/latest_release/VCF/GCF_000001405.40.gz
 ```
