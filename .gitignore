@@ -2,3 +2,4 @@ genome_assembly_conversion/run_grch38.sh
 genome_assembly_conversion/run.sh
 gene_name_conversion/gencode.v39.annotation.gtf.gz
 gene_name_conversion/gene_name_conversion.tsv
+fuma_related/list_predicted_genes/scz_2022
