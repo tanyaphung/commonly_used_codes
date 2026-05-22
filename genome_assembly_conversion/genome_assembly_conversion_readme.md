@@ -4,7 +4,16 @@
 1. Download dbSNP157
 ```
 wget https://ftp.ncbi.nih.gov/snp/latest_release/VCF/GCF_000001405.40.gz
+wget https://ftp.ncbi.nih.gov/snp/latest_release/VCF/GCF_000001405.25.gz
 ```
+
+- Get the chromosome names
+    - GRCh37
+    ```
+    NC_000001.10
+    
+    ```
+    - GRCh38
 
 2. Process to format to be used for tabix
 

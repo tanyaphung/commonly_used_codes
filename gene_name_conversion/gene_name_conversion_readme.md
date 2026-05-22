@@ -1,0 +1,2 @@
+- Download `gencode.v39.annotation.gtf.gz` from https://www.gencodegenes.org/human/release_39.html
+- Run: `python format_gtf.py`
