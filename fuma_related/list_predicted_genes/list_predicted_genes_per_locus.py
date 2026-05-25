@@ -30,7 +30,7 @@ def main():
             if line.startswith("uniqID"):
                 continue
             items = line.rstrip().split("\t")
-            qtl_id = items[5] + ":" + items[2]
+            qtl_id = items[5] + ":" + items[1] + ":" + items[2]
             xqtls_genes[qtl_id].add((items[6], items[3]))
     for k, v in xqtls_genes.items():
         for i in v:
